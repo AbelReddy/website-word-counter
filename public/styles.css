@@ -1,0 +1,38 @@
+body{
+    
+   font-family: 'zilla slab', serif;
+   background-color: #FFDEE9;
+   background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+   background-repeat: no-repeat; 
+   background-size: contain;
+   min-height: 80vh;
+  
+}
+
+
+.form{
+   
+    width: 50%;
+    height:50%;
+    font-size: larger;
+    margin: 100px auto;
+ 
+}
+
+
+
+h1{
+    text-align: center;
+    justify-content:center;
+    background: linear-gradient(45deg,  #00DBDE 0%, #FC00FF 100%);
+    -webkit-background-clip:text;
+    color:transparent;
+    display: inline-block;
+    position: relative;
+    left:40%;
+
+}
+
+
+

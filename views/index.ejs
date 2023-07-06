@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cherry+Bomb+One&family=Zilla+Slab&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="public/styles.css">
+    <title>Document</title>
+</head>
+<body>
+ <h1>The Word Counter</h1>
+    <div class = "form"> 
+        <form action="/" method="post">
+        <label  for="">Enter the url</label>
+        <input type="text" name="url" id="">
+        <button type="submit">Submit</button>
+    </form>
+        
+     <% data.forEach(function(data){%>
+   <p>The words in the website is <%=data%></p> <%});%> 
+
+  <h3>Entered url is </h3>
+
+    <%website.forEach(function(website){%> 
+      <p><%=website%></p> <%});%> 
+   
+
+    </div>
+</body>
+</html>
